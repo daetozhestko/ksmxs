@@ -35,6 +35,41 @@
       "artifacts": [
         "Payments"
       ]
+    },
+    "C:\\Users\\nurus\\Desktop\\Code\\Blockchain University\\ZERO2HERO\\LearnSol\\lessons\\contracts\\lesson7.sol": {
+      "lastModificationDate": 1689966737940,
+      "contentHash": "c93079082db86b71451fc120fbaf0fc1",
+      "sourceName": "contracts/lesson7.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Demo"
+      ]
     }
   }
 }
