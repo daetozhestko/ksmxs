@@ -25,6 +25,9 @@
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": false
           }
         }
       },
@@ -60,6 +63,9 @@
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": false
           }
         }
       },
@@ -69,6 +75,44 @@
       ],
       "artifacts": [
         "Demo"
+      ]
+    },
+    "C:\\Users\\nurus\\Desktop\\Code\\Blockchain University\\ZERO2HERO\\LearnSol\\lessons\\contracts\\AucEngine.sol": {
+      "lastModificationDate": 1690664134995,
+      "contentHash": "ec1c25c7b3c4678ddddbc6291486b574",
+      "sourceName": "contracts/AucEngine.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AucEngine"
       ]
     }
   }

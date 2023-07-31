@@ -65,7 +65,7 @@ pragma solidity ^0.8.0;
     }
 
     function buy(uint index) external payable{
-        Auction memory cAuction =auctions[index];
+        Auction storage   cAuction =auctions[index];
         require(!cAuction.stopped,"stopped!");
         require(block.timestamp < cAuction.endsAt,"ended!");
         uint cPrice =getPriceFor(index);
