@@ -67,6 +67,15 @@ describe("AucEngine",function(){
             to.changeEtherBalance(
                 seller, Number(finalPrice) -  Math.floor((Number(finalPrice) * 10) /100)
             )
+
+        await expect(buyTx)
+        .to.emit(auct, 'AuctionEnded')
+        .withArgs(0, finalPrice,buyer.address)
+
+        await expect(
+            auct.connect(buyer).
+            buy(0,{value: ethers.parseEther("0.0001")})
+        ).to.be.revertedWith("stopped!")
         })
     })
 })
